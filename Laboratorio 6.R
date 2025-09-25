@@ -85,3 +85,4 @@ Resultado <- sapply(Horas_estudio, function(horas) {
 
 
 
+
