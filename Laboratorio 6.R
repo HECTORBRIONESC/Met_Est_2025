@@ -57,6 +57,7 @@ cor.test(resp$Rango_Tiempo, resp$Rango_Edad, method = "spearman")
 cor.test(resp$Tiempo, resp$Edad, method = "spearman")
 
 
+
 # Tau Kendall
 
 tau <- data.frame (
@@ -64,6 +65,17 @@ tau <- data.frame (
   B = c(3,1,4,2,6,5)
 )
 cor.test(tau$A, tau$B, method = "kendall")
+
+# Tau Kendall
+
+tau <- data.frame (
+  A = c(1,2,3,4,5,6),
+  B = c(3,1,4,2,6,5)
+)
+cor.test(tau$A, tau$B, method = "kendall")
+
+
+
 
 # Punto Biserial
 # Numero de observaciones
@@ -77,11 +89,5 @@ Horas_estudio <- sample(1:10, n, replace = TRUE)
 Resultado <- sapply(Horas_estudio, function(horas) {
   ifelse(runif(1) < (horas / 10), "Aprobado", "Reprobado")
 })
-
-
-
-
-
-
 
 
