@@ -32,9 +32,13 @@ boxplot(temperatura$Ene,
         col="lightblue")
 
 datos_meses <- temperatura[,2:13]
-bloxplot(datos_meses, 
-        main="temperatura",
-        ylab="*C",
-        col="lightgreen",
+boxplot(datos_meses, 
+        main ="temperatura",
+        ylab ="*C",
+        col ="lightgreen",
         names = c("Ene", "Feb", "Mar", "Abr", "May",
                   "Jun", "Jul", "Ago", "Sep", "Oct", "Nov","Dic"))
+
+
+
+

@@ -9,7 +9,7 @@ alquiler <- 1500
 otros <- 1833
 total <- celular+transporte+comestible+gimnasio+otros
 semestre <- total*5
-anual <- Total*10
+anual <- total*10
 
 #Valor absoluto
 abs(10)
