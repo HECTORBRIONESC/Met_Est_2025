@@ -86,5 +86,3 @@ abline(lm(y3 ~ x3, data = anscombe_data), col = "blue")
 plot(anscombe_data$x4, anscombe_data$y4,
      main = "Conjunto4")
 abline(lm(y4 ~ x4, data = anscombe_data), col = "black")
-
-
